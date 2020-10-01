@@ -16,6 +16,8 @@ sudo docker ps --all
 
 
 # delete the container
+#The --force option stops a running container, so it can be removed. 
+#If you stop the container running with docker stop bb first, then you do not need to use --force to remove it.
 docker rm --force bb
 
 sudo docker ps --all
